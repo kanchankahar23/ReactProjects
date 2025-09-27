@@ -1,11 +1,13 @@
 import React from 'react'
-import Card from './components/Card.jsx'
+import Card from './components/Card'
 function App() {
-  return(
-    <div>
+
+
+  return (
+    <>
       <Card />
-    </div>
-  );
+    </>
+  )
 }
 
 export default App
