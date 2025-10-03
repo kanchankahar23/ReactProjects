@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card() {
+function Card({text,color}) {
 
   const data = ["ron","rose","jack","jill"];
     return (
@@ -8,6 +8,7 @@ function Card() {
             {data.map((item, index) => {
                 return <h1>{item}</h1>
             })}
+            <button className={`px-3 py-1 ${color} text-white  rounded-full`}>{text}</button>
         </div>
     );
 }
